@@ -7,10 +7,7 @@ final class Database {
     }
 
 }
-
-// ERROR jika dilakukan
-class MyDB extends Database {
-
-}
+$db = new database();
+$db->connect();
 
 ?>
